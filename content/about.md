@@ -1,18 +1,21 @@
 ---
 title: About
-description: A little more about the beaver behind the work.
+description: A little more about Jay.
 ---
 
-## Hello, I’m Tim.
+## Hello, I'm Jay.
 
-I’m a beaver who likes clear water, sturdy structures, and work that lasts. My
-days are split between building for the pond and helping curious teams turn
-rough ideas into dependable systems.
+I'm a Master of Design Engineering student at Harvard University.
 
-I care about simple tools, thoughtful craft, and leaving a place better than I
-found it. When I’m away from the lodge, you can usually find me swimming the
-Charles or sharpening a pencil.
+My background is in architecture, and I'm interested in the intersection of design, technology, and interactive systems.
+
+## What I'm interested in
+
+- Human-computer interaction
+- Physical computing
+- AI and design
+- Product Design
 
 ## Say hello
 
-The best way to reach me is at [beavertim@mit.edu](mailto:beavertim@mit.edu).
+Feel free to reach out if you are interested: nengjie_qu@mde.harcard.edu
