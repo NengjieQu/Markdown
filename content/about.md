@@ -18,4 +18,4 @@ My background is in architecture, and I'm interested in the intersection of desi
 
 ## Say hello
 
-Feel free to reach out if you are interested: nengjie_qu@mde.harcard.edu
+Feel free to reach out if you are interested: nengjie_qu@mde.harvard.edu
