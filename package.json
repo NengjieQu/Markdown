@@ -1,0 +1,18 @@
+{
+  "name": "syncpress-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal blog and portfolio starter built with Syncpress.",
+  "scripts": {
+    "build": "syncpress build .",
+    "dev": "syncpress dev .",
+    "inspect": "syncpress inspect"
+  },
+  "devDependencies": {
+    "@mit-sdg/syncpress": "0.3.0"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "npm@11.17.0"
+}

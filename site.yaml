@@ -1,0 +1,44 @@
+site:
+  title: Tim the Beaver
+  tagline: Builder, swimmer, problem solver
+  description: Notes and selected work from Tim the Beaver.
+  origin: https://mit-sdg.github.io
+  basePath: /syncpress-template/
+  navigation:
+    - label: Home
+      url: /
+    - label: About
+      url: /about/
+    - label: Notes
+      url: /#notes
+paths:
+  content: content
+  templates: templates
+  public: public
+  output: dist
+defaults:
+  - match: "**/*.md"
+    values:
+      build:
+        markup: markdown
+        template: page.html
+        publish: true
+collections:
+  posts:
+    match: "posts/**/*.md"
+    sort:
+      by: data.date
+      order: desc
+  projects:
+    match: "projects/**/*.md"
+    sort:
+      by: data.order
+      order: asc
+markdown:
+  extensions: [tables, autolinks]
+  raw: true
+  excerptSeparator: "<!--more-->"
+deploy:
+  nojekyll: true
+  requireNotFound: true
+  sitemap: true

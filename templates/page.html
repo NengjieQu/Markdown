@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.data.description | default: site.description }}">
+  <meta name="theme-color" content="#fafafa">
+  <title>{% unless page.data.home %}{{ page.data.title }} — {% endunless %}{{ site.title }}</title>
+  {% if page.canonicalUrl %}<link rel="canonical" href="{{ page.canonicalUrl }}">{% endif %}
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="name" href="/">Tim the Beaver</a>
+    <nav aria-label="Primary navigation">
+      <a href="/#work">Work</a>
+      <a href="/#notes">Notes</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    {% if page.data.home %}
+      <div class="intro">
+        <h1>Tim is a beaver in Cambridge, Massachusetts.</h1>
+        <p>He builds structures, studies rivers, and writes about the practical work of maintaining both.</p>
+      </div>
+      {{ page.content }}
+    {% else %}
+      <article>
+        <header class="article-header">
+          {% if page.data.date %}<time datetime="{{ page.data.date }}">{{ page.data.date }}</time>{% endif %}
+          <h1>{{ page.data.title }}</h1>
+          {% if page.data.description %}<p>{{ page.data.description }}</p>{% endif %}
+        </header>
+        <div class="prose">{{ page.content }}</div>
+      </article>
+    {% endif %}
+  </main>
+
+  <footer>
+    <span>© 2026 Tim the Beaver · <span class="easter-egg" title="Institute Has The Finest Pages">IHTFP</span></span>
+    <span>Built with <a href="https://github.com/mit-sdg/syncpress">Syncpress</a></span>
+  </footer>
+</body>
+</html>
