@@ -12,9 +12,9 @@ My background is in architecture, and I'm interested in the intersection of desi
 ## What I'm interested in
 
 - Human-computer interaction
-- Physical computing
+- UX design
 - AI and design
-- Product Design
+- Product design
 
 ## Say hello
 
